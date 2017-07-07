@@ -15,7 +15,6 @@ a {
 .index-hello {
 	color: #ffffff;
 	content: '';
-	border: dashed #03A9F4 thin;
 	width: 100%;
 	position: relative;
 }
@@ -23,7 +22,6 @@ a {
 	position: absolute;
 	width:100%;
 	height: 100%;
-	border: dashed #03A9F4 thin;
 	text-align: center;
 	align-content: center;
 	
