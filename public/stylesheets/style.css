@@ -4,12 +4,8 @@ body {
 	
 }
 
-a {
-	color: darkcyan;
-}
-
 .nav-style {
-	background: rgba(40, 53, 147, 0.91);
+	background: rgba(33, 33, 33, 0.91);
 	padding-left: 20%;
 	padding-right: 20%;
 }
