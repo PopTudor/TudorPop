@@ -7,25 +7,24 @@ html
 		link(rel='stylesheet', href='https://fonts.googleapis.com/icon?family=Material+Icons')
 		meta(name="viewport" content="width=device-width, initial-scale=1.0")
 		link(rel='stylesheet', href='stylesheets/style.css')
-		link(rel='stylesheet', href='stylesheets/navigation.css')
 		link(rel='stylesheet', href='stylesheets/home_intro.css')
+		link(rel='stylesheet', href='stylesheets/navigation.css')
+		script(src="https://code.jquery.com/jquery-2.1.1.min.js")
 
 	body
 		include includes/navigation
 		#home
-			block content
+			block home
 		#about
-			h1.white-text lola
+			block about
 		#skills
-			h1.white-text lol
+			block skills
 		#projects
-			h1.index-hello Hello, World!
+			block projects
 		#work
-			h1 Hello, World!
+			block work
 
-	script(src="https://code.jquery.com/jquery-2.1.1.min.js")
-	script(src="javascripts/tabs_navigation.js")
-	script(src="javascripts/parallax.js")
 	script(src="https://fonts.googleapis.com/icon?family=Material+Icons")
 	script(src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js")
+	script(src="javascripts/parallax.js")
 
