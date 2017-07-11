@@ -29,38 +29,32 @@
 
 #home.parallax img {
 	width: 100%;
-	height: 100%;
 	border: solid thin white;
 	background-color: blue;
 }
 
 #home {
 	width: 100%;
-	height: 100%;
 }
 
 #about {
 	width: 100%;
-	height: 100%;
 	background-color: #ff666b;
 }
 
 #skills {
 	width: 100%;
-	height: 100%;
 	background-color: #a1ff65;
 	
 }
 
 #projects {
 	width: 100%;
-	height: 100%;
 	background-color: #ffb76c;
 	
 }
 
 #work {
 	width: 100%;
-	height: 100%;
 	background-color: #c395ff;
 }

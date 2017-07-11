@@ -11,8 +11,10 @@ function carouselHeight() {
     $('.carousel.tabs-content').each(function () {
         var newHeight = $(this).find('.carousel-item img').height();
         var origStyle = $(this).attr('style');
-        $(this).attr('style', origStyle + '; height: ' + newHeight + 'px ');
+        // $(this).attr('style', origStyle + '; height: ' + newHeight + 'px ');
     });
+    var underParallax = document.querySelector('#underParallax').style.height;
+    document.querySelector('.tabs-content.carousel').style.height = window.innerHeight + "px";
 }
 $(window).resize(function () {
     carouselHeight();
