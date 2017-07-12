@@ -7,14 +7,10 @@ $(document).ready(function () {
     carouselHeight();
     console.log("loaded")
 });
+
 function carouselHeight() {
-    $('.carousel.tabs-content').each(function () {
-        var newHeight = $(this).find('.carousel-item img').height();
-        var origStyle = $(this).attr('style');
-        // $(this).attr('style', origStyle + '; height: ' + newHeight + 'px ');
-    });
     var underParallax = document.querySelector('#underParallax').style.height;
-    document.querySelector('.tabs-content.carousel').style.height = window.innerHeight + "px";
+    $('.tabs-content.carousel').css("height", $(window).height())
 }
 $(window).resize(function () {
     carouselHeight();
