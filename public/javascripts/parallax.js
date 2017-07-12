@@ -5,13 +5,16 @@ $(document).ready(function () {
     $('.parallax').parallax();
     $('ul.tabs').tabs({swipeable: true});
     carouselHeight();
-    console.log("loaded")
+    console.log("loaded");
 });
 
 function carouselHeight() {
-    var underParallax = document.querySelector('#underParallax').style.height;
-    $('.tabs-content.carousel').css("height", $(window).height())
+    var cardList = $('#stagger');
+    var cardListLength = $("#stagger li").length;
+    console.log(cardListLength);
+    $('.tabs-content.carousel').css("height", $(window).height() + cardList[0].scrollHeight)
 }
+
 $(window).resize(function () {
     carouselHeight();
 });
