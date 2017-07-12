@@ -27,6 +27,10 @@
 	height: 700px;
 }
 
+#stagger li {
+	opacity: 0;
+}
+
 #home.parallax img {
 	width: 100%;
 	border: solid thin white;
