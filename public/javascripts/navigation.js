@@ -1,8 +1,9 @@
 /**
  * Created by tudor on 13/07/2017.
  */
-$("#home, #about, #skills, #projects, #work").click(function () {
+$("#navigation_tabs").click(function () {
     $('html, body').animate({
-        scrollTop: $(document).offset().top
-    }, 2000);
+        scrollTop: 0
+    }, 350);
+    return false
 });
