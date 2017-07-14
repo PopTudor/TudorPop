@@ -25,3 +25,7 @@ ul.tabs {
 .tabs .tab a.active {
 	color: #00BFA5;
 }
+
+.page-footer {
+	background-color: #424242;
+}
