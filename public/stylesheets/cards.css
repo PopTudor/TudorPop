@@ -1,0 +1,8 @@
+#simpleCard {
+	background-color: #424242;
+}
+
+#simpleCard #date * {
+	color: #00BFA5;
+	font-size: 1.5em;
+}

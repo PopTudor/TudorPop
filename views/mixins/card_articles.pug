@@ -1,0 +1,13 @@
+// Created by tudor on 12/07/2017.
+
+mixin simpleCard(title,day,monthYear)
+	.row: .col.l11
+		.card#simpleCard.hoverable
+			.card-content
+				span.card-title.text-primary= title
+				.row.center
+					.col.l1#date
+						h5#day= day
+						h6#monthYear= monthYear
+					.col.l1
+						p test
