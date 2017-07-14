@@ -2,11 +2,16 @@
 	background-color: #424242;
 }
 
-#simpleCard #date * {
+#simpleCard #dateCard * {
 	color: #00BFA5;
 }
 
-#simpleCard #date h6 {
+#simpleCard #dateCard h6 {
 	font-size: 83%;
-	
+}
+
+#simpleCard #contentCard p {
+	font-family: "Roboto", sans-serif;
+	letter-spacing: 1px;
+	font-weight: lighter;
 }
