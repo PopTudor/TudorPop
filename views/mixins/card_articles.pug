@@ -1,10 +1,12 @@
 // Created by tudor on 12/07/2017.
 
-mixin simpleCard(title,day,monthYear)
+mixin simpleCard(title,image, day,monthYear)
 	.row: .col.l10
 		.card#simpleCard.hoverable
-			.card-content
+			.card-image
+				img(src=image)
 				span.card-title.text-primary= title
+			.card-content
 				.row
 					.col#dateCard.l3.center
 						h5= day
