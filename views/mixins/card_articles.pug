@@ -4,7 +4,7 @@ mixin simpleCard(title,image, day,monthYear)
 	.row: .col.l10
 		.card#simpleCard.hoverable
 			.card-image
-				img(src=image)
+				img(src=image).responsive-img
 				span.card-title.text-primary= title
 			.card-content
 				.row
