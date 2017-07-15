@@ -9,13 +9,6 @@ $(document).ready(function () {
             callback: function (el) {
                 Materialize.showStaggeredList($(el));
             }
-        },
-        {
-            selector: '.other-class',
-            offset: 200,
-            callback: function () {
-                customCallbackFunc();
-            }
         }
     ];
     Materialize.scrollFire(options);
