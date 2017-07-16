@@ -16,14 +16,14 @@
 
 #profileCard {
 	align-items: center;
-	/*padding-top: 0em;*/
-	/*margin: 0 auto;*/
+	padding-top: 0em;
+	margin: 5em 15% 0;
 }
 
 #profileImage {
 	width: 10em;
 	height: 10em;
 	position: relative;
-	margin-top: -7%;
+	margin-top: -5em;
 	border: solid white thick;
 }
