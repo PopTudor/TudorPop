@@ -4,7 +4,15 @@
 $(document).ready(function () {
     $('.parallax-container').css('height', $(window).height() - $('nav').height());
     $('.parallax').parallax();
-    $('ul.tabs').tabs({swipeable: true});
+    $('ul.tabs').tabs({
+        swipeable: true, onShow: function (tab) {
+            if (tab.selector === '#about') {
+                setTimeout(function () {
+                    $('#profileImage').addClass('scale-in');
+                }, 700);
+            }
+        }
+    });
     carouselHeight();
     console.log("loaded");
 });
