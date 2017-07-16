@@ -1,0 +1,27 @@
+#simpleCard {
+	background-color: #424242;
+	font-family: Charter, serif;
+}
+
+#simpleCard .card-image .card-title {
+	width: 100%;
+	font-size: 1.5em;
+	background-color: rgba(0, 0, 0, 0.71);
+	font-family: "Roboto", sans-serif;
+}
+
+#simpleCard #dateCard * {
+	color: #00BFA5;
+}
+
+#simpleCard .card-action * {
+	color: #00BFA5;
+}
+
+#simpleCard #contentCard * {
+	/*letter-spacing: 1px;*/
+	font-style: normal;
+	font-weight: 100;
+	font-size: 1.3em;
+	
+}

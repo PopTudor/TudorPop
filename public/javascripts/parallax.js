@@ -2,6 +2,7 @@
  * Created by tudor on 08/07/2017.
  */
 $(document).ready(function () {
+    $('.parallax-container').css('height', $(window).height() - $('nav').height());
     $('.parallax').parallax();
     $('ul.tabs').tabs({swipeable: true});
     carouselHeight();
