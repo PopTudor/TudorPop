@@ -1,0 +1,29 @@
+#about {
+	height: 100%;
+	width: 100%;
+}
+
+#profileContainer {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#profileContainer h1 {
+	align-self: center;
+}
+
+#profileCard {
+	align-items: center;
+	/*padding-top: 0em;*/
+	/*margin: 0 auto;*/
+}
+
+#profileImage {
+	width: 10em;
+	height: 10em;
+	position: relative;
+	margin-top: -7%;
+	border: solid white thick;
+}
