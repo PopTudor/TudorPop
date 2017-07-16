@@ -1,15 +1,17 @@
 // Created by tudor on 12/07/2017.
 
-mixin simpleCard(title,image, day,monthYear)
-	.row: .col.l10
-		.card#simpleCard.hoverable
-			.card-image
-				img(src=image).responsive-img
-				span.card-title.text-primary= title
-			.card-content
-				.row
-					.col#dateCard.l3.center
-						h5= day
-						h6= monthYear
-					.col#contentCard.l9.white-text
-						p So you like the new databinding stuff but did you know that some of features didn't even make it into the docs? Take a look!
+mixin simpleCard(title,image, date)
+	.card#simpleCard.hoverable.waves-effect
+		.card-image
+			span.card-title
+				= title
+			img(src=image).responsive-img
+		.card-content
+			#dateCard
+				p= date
+				br
+			#contentCard.white-text
+				p So you like the new databinding stuff but did you know that some of features didn't even make it into the docs? Take a look!
+
+		.card-action.waves-effect.waves-block
+			a(href='#') Read
