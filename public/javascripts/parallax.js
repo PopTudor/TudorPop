@@ -6,6 +6,7 @@ $(document).ready(function () {
     $('.parallax').parallax();
     $('ul.tabs').tabs({
         swipeable: true, onShow: function (tab) {
+            console.log(tab);
             if (tab.selector === '#about') {
                 setTimeout(function () {
                     $('#profileImage').addClass('scale-in');
@@ -14,7 +15,6 @@ $(document).ready(function () {
         }
     });
     carouselHeight();
-    console.log("loaded");
 });
 
 function carouselHeight() {
