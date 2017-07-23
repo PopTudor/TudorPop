@@ -9,19 +9,21 @@
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	margin-top: 4%;
+	margin-top: 10%;
 }
 
 #profileContainer > h1 {
 	align-self: center;
 	text-transform: uppercase;
 	font-weight: bold;
+	font-size: 6em;
+	font-family: Verdana, sans-serif;
 }
 
 #profileCard {
 	align-items: center;
 	padding: 0em 2em 2em 2em;
-	margin-top: 12%;
+	margin-top: 18%;
 	align-content: center;
 	text-align: center;
 }
