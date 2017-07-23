@@ -19,17 +19,27 @@
 
 #profileCard {
 	align-items: center;
-	padding: 0em 1em 1em 1em;
+	padding: 0em 2em 2em 2em;
 	margin: 5em 15% 0;
 	align-content: center;
 	text-align: center;
 }
 
+#aboutContent {
+	font-family: Verdana, sans-serif;
+	line-height: 150%;
+	font-size: x-large;
+}
+
+#aboutContentFooter {
+	font-size: medium;
+}
+
 #profileImage {
-	width: 10em;
-	height: 10em;
+	width: 14em;
+	height: 14em;
 	position: relative;
-	margin-top: -5em;
+	margin-top: -7em;
 	border: solid white thick;
 	clip: rect(1em, 1em, 1em, 1em);
 }
