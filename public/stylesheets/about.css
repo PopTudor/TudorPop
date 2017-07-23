@@ -19,7 +19,7 @@
 
 #profileCard {
 	align-items: center;
-	padding-top: 0em;
+	padding: 0em 1em 1em 1em;
 	margin: 5em 15% 0;
 	align-content: center;
 	text-align: center;
