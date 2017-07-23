@@ -42,6 +42,10 @@
 	padding: .5em;
 }
 
+#aboutSocialButtons > .btn-floating {
+	margin: .5em;
+}
+
 .fa {
 	font-size: 2em;
 	padding: 20%;
