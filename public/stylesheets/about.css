@@ -38,6 +38,24 @@
 	font-size: medium;
 }
 
+#stackOverflowSocialButton {
+	padding: .5em;
+}
+
+.fa {
+	font-size: 2em;
+	padding: 20%;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	text-decoration: none;
+}
+
+.fa-linkedin {
+	background-color: #0077B5;
+	color: #fff;
+}
+
 #profileImage {
 	width: 14em;
 	height: 14em;
