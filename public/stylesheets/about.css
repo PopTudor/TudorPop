@@ -9,6 +9,7 @@
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
+	margin-top: 4%;
 }
 
 #profileContainer > h1 {
@@ -20,7 +21,7 @@
 #profileCard {
 	align-items: center;
 	padding: 0em 2em 2em 2em;
-	margin: 5em 15% 0;
+	margin-top: 12%;
 	align-content: center;
 	text-align: center;
 }
