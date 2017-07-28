@@ -1,0 +1,75 @@
+#about {
+	height: 100%;
+	width: 100%;
+}
+
+#profileContainer {
+	width: 100%;
+	height: 50%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 10%;
+}
+
+#profileContainer > h1 {
+	align-self: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 6em;
+	font-family: Verdana, sans-serif;
+}
+
+#profileCard {
+	align-items: center;
+	padding: 0em 2em 2em 2em;
+	margin-top: 18%;
+	align-content: center;
+	text-align: center;
+}
+
+#aboutContent {
+	font-family: Verdana, sans-serif;
+	line-height: 150%;
+	font-size: x-large;
+}
+
+#aboutContentFooter {
+	font-size: medium;
+}
+
+#stackOverflowSocialButton {
+	padding: .5em;
+}
+
+#aboutSocialButtons > .btn-floating {
+	margin: .5em;
+}
+
+.fa {
+	font-size: 2em;
+	padding: 20%;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	text-decoration: none;
+}
+
+.fa-linkedin {
+	background-color: #0077B5;
+	color: #fff;
+}
+
+.fa-github {
+	background-color: #000;
+	color: #fff;
+}
+
+#profileImage {
+	width: 14em;
+	height: 14em;
+	position: relative;
+	margin-top: -7em;
+	border: solid white thick;
+	clip: rect(1em, 1em, 1em, 1em);
+}

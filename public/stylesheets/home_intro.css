@@ -27,6 +27,10 @@
 	opacity: 0;
 }
 
+#stagger .row .col {
+	padding: 2em;
+}
+
 #home.parallax img {
 	width: 100%;
 	border: solid thin white;
@@ -35,11 +39,6 @@
 
 #home {
 	width: 100%;
-}
-
-#about {
-	width: 100%;
-	background-color: #ff666b;
 }
 
 #skills {
