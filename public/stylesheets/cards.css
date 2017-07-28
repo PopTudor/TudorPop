@@ -1,6 +1,7 @@
 #simpleCard {
 	background-color: #424242;
-	font-family: Charter, serif;
+	font-family: "Roboto", serif;
+	font-style: normal;
 }
 
 #simpleCard .card-image .card-title {
@@ -19,9 +20,6 @@
 }
 
 #simpleCard #contentCard * {
-	/*letter-spacing: 1px;*/
-	font-style: normal;
-	font-weight: 100;
-	font-size: 1.3em;
-	
+	font-size: larger;
+	color: #ffffff;
 }
