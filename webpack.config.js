@@ -3,9 +3,8 @@ var path = require('path');
 var BUILD_DIR = path.resolve(__dirname, 'src/public');
 var APP_DIR = path.resolve(__dirname, 'src/app');
 
-
 var config = {
-    entry: './public/javascripts/main.js',
+    entry: './main.js',
 
     output: {
         path: '/Users/tudor/IdeaProjects/TudorPop/',
@@ -15,6 +14,10 @@ var config = {
     devServer: {
         inline: true,
         port: 8080
+    },
+
+    resolve: {
+        extensions: [".jsx", ".js"]
     },
 
     module: {
@@ -31,4 +34,5 @@ var config = {
         ]
     }
 };
+
 module.exports = config;
