@@ -6,13 +6,16 @@ import SwipeableViews from 'react-swipeable-views';
 const styles = {
     headline: {
         fontSize: 24,
-        paddingTop: 16,
         marginBottom: 12,
         fontWeight: 400,
     },
     slide: {
-        padding: 10,
+        padding: 1,
     },
+    tabs: {
+        float: 'left',
+        width: 500
+    }
 };
 
 export default class TabsExampleSwipeable extends React.Component {
@@ -34,6 +37,7 @@ export default class TabsExampleSwipeable extends React.Component {
         return (
             <div>
                 <Tabs
+                    tabItemContainerStyle={{backgroundColor: '#febc81', width: '500px'}}
                     onChange={this.handleChange}
                     value={this.state.slideIndex}
                 >
@@ -45,16 +49,16 @@ export default class TabsExampleSwipeable extends React.Component {
                     index={this.state.slideIndex}
                     onChangeIndex={this.handleChange}
                 >
-                    <div>
+                    <Tab>
                         <h2 style={styles.headline}>Tabs with slide effect</h2>
                         Swipe to see the next slide.<br/>
-                    </div>
-                    <div style={styles.slide}>
+                    </Tab>
+                    <Tab style={styles.slide}>
                         slide n°2
-                    </div>
-                    <div style={styles.slide}>
+                    </Tab>
+                    <Tab style={styles.slide}>
                         slide n°3
-                    </div>
+                    </Tab>
                 </SwipeableViews>
             </div>
         );
