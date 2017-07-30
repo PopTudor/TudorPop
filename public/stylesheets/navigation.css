@@ -11,19 +11,19 @@ ul.tabs {
 
 /* indicator and text colors */
 .tabs .indicator {
-	background-color: #00BFA5;
+	background-color: #fff;
 }
 
 .tabs .tab a {
-	color: #00BFA5;
+	color: #fff;
 }
 
 .tabs .tab a:hover {
-	color: #00BFA5;
+	color: #fff;
 }
 
 .tabs .tab a.active {
-	color: #00BFA5;
+	color: #fff;
 }
 
 .page-footer {
