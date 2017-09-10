@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "webpack-dev-server --hot --color --watch"
+	"start": "webpack-dev-server --hot --color --watch",
+	"dev": "webpack -d --watch"
   },
   "dependencies": {
     "babel-core": "^6.26.0",
@@ -14,7 +15,6 @@
     "debug": "~2.6.3",
     "express": "^4.15.4",
     "material-ui": "^0.18.7",
-    "materialize-css": "^0.99.0",
     "morgan": "~1.8.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",

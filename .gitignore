@@ -60,3 +60,4 @@ typings/
 .env
 /bin/
 /.idea/
+/src/public/bundle.js

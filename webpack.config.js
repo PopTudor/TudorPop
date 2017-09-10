@@ -1,18 +1,16 @@
 var webpack = require('webpack');
 var path = require('path');
 var BUILD_DIR = path.resolve(__dirname, 'src/public');
-var APP_DIR = path.resolve(__dirname, 'src/app');
+var APP_DIR = path.resolve(__dirname, 'src/');
 
 var config = {
-    entry: './main.js',
-
+    entry: APP_DIR + '/App.jsx',
     output: {
-        path: '/Users/tudor/IdeaProjects/TudorPop/',
-        filename: 'index.js',
+        path: path.resolve(__dirname, 'public'),
+        filename: 'bundle.js',
     },
 
     devServer: {
-        inline: true,
         port: 8080
     },
 
